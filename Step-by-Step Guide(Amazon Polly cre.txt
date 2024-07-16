@@ -1,0 +1,29 @@
+Step-by-Step Guide(Amazon Polly credentials)
+
+1. Set Up an AWS Account
+	sign up at AWS Sign-Up
+
+2. Create an IAM User for Programmatic Access
+	Go to the AWS Management Console
+	Navigate to the IAM (Identity and Access Management) service
+	Click on Users and then Add user
+	Enter a username
+	Select Programmatic access
+	Go to permissions
+	Attach existing policies directly and search for AmazonPollyFullAccess
+	Add tags if necessary 
+	Review the settings and click Create user.
+	Save the Access key ID and Secret access key. You will need these to configure AWS CLI and SDK.
+
+3. Install AWS CLI - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
+4. Configure AWS CLI
+	open a terminal or command prompt.
+	Run 'aws configure', and provide the details
+
+AWS Access Key ID [None]: your_access_key_id
+AWS Secret Access Key [None]: your_secret_access_key
+Default region name [None]: us-east-1 (or your preferred region)
+Default output format [None]: json
+
+5. Run the script in a terminal or command prompt
