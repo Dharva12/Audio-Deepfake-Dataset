@@ -1,0 +1,10 @@
+# For Amazon Polly
+boto3==1.21.0
+
+# For ElevenLabs
+requests==2.26.0
+elevenlabs==0.2.14
+
+# General dependencies
+numpy==1.21.2
+pandas==1.3.3
