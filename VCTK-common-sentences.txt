@@ -1,5 +1,5 @@
 - Utilized the VCTK dataset, which includes recordings and associated text files from 110 English speakers.
-- Focused on the first 24 utterances, extracted the sentences which occur in more than '80%'(threshold) of the speaker folders. So there are a few extra sentences apart from the ones that occur in the rainbow passage(The rainbow passage contains 19 sentences in total which are present in this sentence set).
+- Focused on the first 23 utterances, extracted the sentences which occur in more than '80%'(threshold) of the speaker folders. So there are a few extra sentences apart from the ones that occur in the rainbow passage(The rainbow passage contains 19 sentences in total which are present in this sentence set).
 - used a Python script to automate the extraction of sentences from individual text files corresponding to each speaker's utterances.
 
 Sentences:
